@@ -85,10 +85,27 @@ Preliminary prompt and output-format experiments are documented in `experiments.
 
 
 <img src="manga-banner-bottom.png" alt="BYTE Manga AI banner" width="100%">
+
+# Pre-trained Models
+
+Qwen2.5-VL-3B-Instruct — Used as the vision-language model for manga image understanding and text extraction.
+Model: https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct
+
+# Libraries and Tools
+
+Transformers (Hugging Face) — Loading and running the pre-trained model: https://huggingface.co/docs/transformers
+
+PyTorch — Model inference and tensor operations: https://pytorch.org/
+
+Pillow (PIL) — Image loading and preprocessing: https://pillow.readthedocs.io/
+
+NumPy — Numerical operations: https://numpy.org/doc/
+
+PEFT (if used) — Parameter-efficient fine-tuning and adapter support: https://huggingface.co/docs/peft/
+
 <br>
 <br>
 <img src="manga-banner-5.png" alt="BYTE Manga AI banner" width="40%">
-
 
 
 <img src="manga-banner-5a.png" alt="BYTE Manga AI banner" width="20%">
